@@ -5,6 +5,6 @@ def uq(s):
             if int(s[i])==int(s[j]) and i != j:
                 b="False"
         if(b=="True"):
-            print(int(a[i]))
+            print(int(s[i]))
 l = input().split()
 uq(l)
